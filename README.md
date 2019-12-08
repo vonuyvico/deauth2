@@ -45,7 +45,7 @@ This page provides/covers most of DeauTH2's capabilities.
 
 # What to do after deauthenticating
 ## Option 1
-### <i>You will see that you aren't connected to a WiFi network anymore, it's because you have enabled monitor mode a while ago, to disable, type in
+### <i>You will see that you aren't connected to a WiFi network anymore, it's because you have enabled monitor mode a while ago, to disable, type in</i>
 `airmon-ng stop (interface+mon)`<br><br>
 <b>WHERE interface = wlan, if interface is not wlan, DO NOT ADD 'mon' ANYMORE, for instance,<br>
 interface = mon0<br>
