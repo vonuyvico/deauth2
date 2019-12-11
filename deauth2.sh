@@ -62,7 +62,7 @@ read bssid
 echo -n 'Copy CHANNEL of target and paste here: '
 read channel
 echo -e $green'NOTE: YOU MAY NOW CLOSE "Select Target Router" TERMINAL!'
-xterm -title 'Select Target Device' -e 'airodump-ng '$suc' --bssid '$bssid' --channel '$channel &
+xterm -title 'Select Target Device' -e 'airodump-ng '$suc' --bssid '$bssid' --channel '$channel'; sleep 999999999999999' &
 # Device
 echo -n -e $yellow'Copy STATION of target DEVICE and paste here: '
 read device
